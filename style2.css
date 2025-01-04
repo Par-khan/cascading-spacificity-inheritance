@@ -1,0 +1,18 @@
+#html.html{
+    background-color: blue;
+}
+/* ab ye blue color show hoga orange ki jgha kyu
+ ki style2 file ki spacificity jada acceroding 
+ to cascading rulekyu ki whe style file ke niche aa
+  rhi h class se */
+  ul{
+      color: blueviolet;
+  }
+
+  body{
+      color:green;
+  }
+  /* yha par sari body ka color green ho jyega text ka kyu ki body inherit kr rhi apne child tag ko pat */
+  ul{
+      color:red;
+  }

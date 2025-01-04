@@ -1,0 +1,34 @@
+.html{
+    background-color: red;
+}
+/* yha red color nhi dikhega kyu 
+ki id ki spacity jada h class se */
+#html{
+    background-color: blue;
+}
+/* yha output me blue color dikhega 
+kyu ki class se jada specificity id ki jada h */
+#html.html{
+    background-color: orange;
+}
+/* ab yha orange color show hoga kyu
+ ki hmne same spacificity wLe me class
+  ki spacificity add kr di ab uski sapcificity 
+  100 se 110 hogyi */
+li{
+    background-color: green;
+}
+/* yha green color nhi dikhega kyu 
+cascading rule ke hisab se css jese 
+niche jada h uski utni impotantace badh jati h */
+li{
+   background-color:yellow;
+}
+.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html{
+    background-color: pink;
+}
+/* yha sapcificity 160 hogyi 
+h par ye fir bhi id wale ko replace
+ nhi kr skta kyu ki iske singalki spacificity 
+ 10 h or id ki 100 h */
+ 
